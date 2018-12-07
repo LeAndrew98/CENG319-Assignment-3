@@ -26,22 +26,22 @@ Below, I have attached an example project of how the volley library is being use
 For volley to be used in android studio you must also change the build.gradle and the manifest.xml a little bit. In the build.gradle, the line compile ‘com.android.volley:volley:1.0.0’ must be added. This line adds the dependency files for volley. In the manifest.xml, the line <uses-permission android:name=”android.permission.INTERNET” /> must also be added. This line allows for the use of internet and this is needed as we will be collecting the data from the internet.
 
 # Code:
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
+    import android.support.v7.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.TextView;
  
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.Volley;
+    import com.android.volley.Request;
+    import com.android.volley.RequestQueue;
+    import com.android.volley.Response;
+    import com.android.volley.VolleyError;
+    import com.android.volley.toolbox.JsonObjectRequest;
+    import com.android.volley.toolbox.Volley;
  
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+    import org.json.JSONArray;
+    import org.json.JSONException;
+    import org.json.JSONObject;
  
     public class MainActivity extends AppCompatActivity {
    
@@ -106,7 +106,7 @@ import org.json.JSONObject;
     }
     }
 
-References:
+# References:
 https://developer.android.com/training/volley/ 
 https://developer.android.com/training/volley/simple 
 https://abhiandroid.com/programming/volley#Volley_Basic_HTTP_Example_In_Android_Studio 
