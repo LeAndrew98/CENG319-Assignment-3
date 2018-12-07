@@ -22,7 +22,7 @@ Request.Method.DELETE – The DELETE is used to delete.
 Request.Method.PATCH – The PATCH is used to update and/or modify.
 
 # Example Project:
-Below, I have attached an example project of how the volley library is being used and appears to all of the users. All of the code provided is necessary for the code to run properly and there are also comments included to allow for easier understanding of the code.
+Below, I have attached an example project of how the volley library is being used. All of the code provided is necessary for the code to run properly and there are also comments included to allow for easier understanding of the code.
 For volley to be used in android studio you must also change the build.gradle and the manifest.xml a little bit. In the build.gradle, the line compile ‘com.android.volley:volley:1.0.0’ must be added. This line adds the dependency files for volley. In the manifest.xml, the line <uses-permission android:name=”android.permission.INTERNET” /> must also be added. This line allows for the use of internet and this is needed as we will be collecting the data from the internet.
 
 # Code:
